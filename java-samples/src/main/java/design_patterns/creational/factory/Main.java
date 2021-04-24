@@ -10,12 +10,12 @@ public class Main {
 
     public static void main(String... args) {
 
-        Factory factory = new Factory();
+        ShapeFactory shapeFactory = new ShapeFactory();
 
-        Shape triangle = factory.produceShape(ShapeType.TRIANGLE);
-        Shape rectangle = factory.produceShape(ShapeType.RECTANGLE);
-        Shape square = factory.produceShape(ShapeType.SQUARE);
-        Shape circle = factory.produceShape(ShapeType.CIRCLE);
+        Shape triangle = shapeFactory.produceShape(ShapeType.TRIANGLE);
+        Shape rectangle = shapeFactory.produceShape(ShapeType.RECTANGLE);
+        Shape square = shapeFactory.produceShape(ShapeType.SQUARE);
+        Shape circle = shapeFactory.produceShape(ShapeType.CIRCLE);
 
         Shape[] array = new Shape[4];
         array[0] = triangle;

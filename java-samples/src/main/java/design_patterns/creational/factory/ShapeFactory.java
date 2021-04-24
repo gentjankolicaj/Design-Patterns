@@ -1,9 +1,9 @@
 package design_patterns.creational.factory;
 
 
-public class Factory {
+public class ShapeFactory {
 
-    public Factory() {
+    public ShapeFactory() {
         super();
     }
 
